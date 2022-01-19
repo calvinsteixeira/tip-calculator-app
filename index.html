@@ -17,23 +17,41 @@
     <div class="calculator">
       <div class="calculatorDisplay fontStyle">0</div>
       <div class="calculatorKeys">
-        <button class="key fontStyle isClear lightFontStyle">C</button>
+        <button
+          class="key fontStyle isClear lightFontStyle"
+          data-action="clear"
+        >
+          C
+        </button>
 
-        <button class="key fontStyle lightFontStyle">+</button>
+        <button class="key fontStyle lightFontStyle" data-action="sum">
+          +
+        </button>
         <button class="key fontStyle">7</button>
         <button class="key fontStyle">8</button>
         <button class="key fontStyle">9</button>
-        <button class="key fontStyle lightFontStyle">-</button>
+        <button class="key fontStyle lightFontStyle" data-action="subtract">
+          -
+        </button>
         <button class="key fontStyle">4</button>
         <button class="key fontStyle">5</button>
         <button class="key fontStyle">6</button>
-        <button class="key fontStyle lightFontStyle">*</button>
+        <button class="key fontStyle lightFontStyle" data-action="multiply">
+          *
+        </button>
         <button class="key fontStyle">1</button>
         <button class="key fontStyle">2</button>
         <button class="key fontStyle">3</button>
-        <button class="key fontStyle lightFontStyle">/</button>
+        <button class="key fontStyle lightFontStyle" data-action="divider">
+          /
+        </button>
         <button class="key fontStyle isZero">0</button>
-        <button class="key fontStyle isEquals lightFontStyle">=</button>
+        <button
+          class="key fontStyle isEquals lightFontStyle"
+          data-action="equals"
+        >
+          =
+        </button>
       </div>
     </div>
 
